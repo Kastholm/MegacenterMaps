@@ -1,0 +1,656 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.32100405092, 48.8370353648]
+      },
+      "properties": { "name": "MARCHÉ BIOLOGIQUE BRANCUSI" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.34048470247, 48.8691079032]
+      },
+      "properties": { "name": "MARCHÉ BOURSE" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.40915577172, 48.8689175143]
+      },
+      "properties": { "name": "MARCHÉ MORTIER" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.40077377472, 48.8556563297]
+      },
+      "properties": { "name": "MARCHÉ REUNION" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.39241681845, 48.8392712255]
+      },
+      "properties": { "name": "MARCHÉ DAUMESNIL" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.38995627859, 48.8880833849]
+      },
+      "properties": { "name": "MARCHÉ JEAN JAURES" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.34774830053, 48.8231045979]
+      },
+      "properties": { "name": "MARCHÉ BOBILLOT" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.32754194289, 48.8490540546]
+      },
+      "properties": { "name": "MARCHÉ RASPAIL" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.26049132815, 48.8387518035]
+      },
+      "properties": { "name": "MARCHÉ POINT DU JOUR" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.32754194289, 48.8490540546]
+      },
+      "properties": { "name": "MARCHÉ BIOLOGIQUE RASPAIL" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.38423808387, 48.8656853802]
+      },
+      "properties": { "name": "MARCHÉ PERE LACHAISE" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3457355864, 48.8636860463]
+      },
+      "properties": { "name": "MARCHÉ LES HALLES" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.32475193013, 48.8412324601]
+      },
+      "properties": { "name": "MARCHÉ EDGAR QUINET" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.29975883022, 48.8362648795]
+      },
+      "properties": { "name": "MARCHÉ CONVENTION" }
+    },
+    
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.37308307454, 48.8943940294]
+      },
+      "properties": { "name": "MARCHÉ CRIMEE CURIAL" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.37041876592, 48.8472907293]
+      },
+      "properties": { "name": "MARCHÉ LEDRU ROLLIN" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.28091383087, 48.8756376639]
+      },
+      "properties": { "name": "MARCHÉ AMIRAL BRUIX" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.38794411323, 48.8458919002]
+      },
+      "properties": { "name": "MARCHÉ SAINT-ELOI" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3990323051, 48.875100134]
+      },
+      "properties": { "name": "MARCHÉ TELEGRAPHE" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.36825468205, 48.8298847615]
+      },
+      "properties": { "name": "MARCHÉ JEANNE D'ARC" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.25688814904, 48.8455682675]
+      },
+      "properties": { "name": "MARCHÉ PORTE MOLITOR" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.39448824875, 48.8763909671]
+      },
+      "properties": { "name": "MARCHÉ PLACE DES FETES" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.36876082096, 48.8719769729]
+      },
+      "properties": { "name": "MARCHÉ ALIBERT" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.37817248241, 48.8316449936]
+      },
+      "properties": { "name": "MARCHÉ PARIS RIVE GAUCHE" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.37804962235, 48.8488891194]
+      },
+      "properties": { "name": "MARCHÉ BEAUVAU" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3870680979, 48.8358272969]
+      },
+      "properties": { "name": "MARCHÉ BERCY" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3533114763, 48.884006836]
+      },
+      "properties": { "name": "MARCHÉ BARBES" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3743120414, 48.8743878127]
+      },
+      "properties": { "name": "MARCHÉ VILLETTE" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.37840803578, 48.8488137571]
+      },
+      "properties": { "name": "MARCHÉ BEAUVAU (Brocante)" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.37007970137, 48.8552550489]
+      },
+      "properties": { "name": "MARCHÉ DE LA CRÉATION BASTILLE" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.35784647645, 48.8236559601]
+      },
+      "properties": { "name": "MARCHÉ MAISON BLANCHE" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.31014826805, 48.8267804473]
+      },
+      "properties": { "name": "MARCHÉ BRUNE" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.29677580341, 48.8649154308]
+      },
+      "properties": { "name": "MARCHÉ PRESIDENT WILSON" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.40485890361, 48.8360289124]
+      },
+      "properties": { "name": "MARCHÉ PORTE DOREE" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.28263657592, 48.8366359278]
+      },
+      "properties": { "name": "MARCHÉ LECOURBE" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.33213949388, 48.8668920445]
+      },
+      "properties": { "name": "MARCHÉ SAINT-HONORE" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3239301378, 48.8960058376]
+      },
+      "properties": { "name": "MARCHÉ NAVIER" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.28269035906, 48.8433694561]
+      },
+      "properties": { "name": "MARCHÉ SAINT-CHARLES" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.34751260129, 48.8554596626]
+      },
+      "properties": { "name": "MARCHÉ AUX OISEAUX CITE" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.41061931571, 48.8549069329]
+      },
+      "properties": { "name": "MARCHÉ DAVOUT" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.29821605211, 48.8894846584]
+      },
+      "properties": { "name": "MARCHÉ BERTHIER" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.27489208238, 48.8519641378]
+      },
+      "properties": { "name": "MARCHÉ GROS LA FONTAINE" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.37995468045, 48.8694918283]
+      },
+      "properties": { "name": "MARCHÉ BELLEVILLE" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.34851757172, 48.8498864237]
+      },
+      "properties": { "name": "MARCHÉ MAUBERT" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.40200827668, 48.8652747657]
+      },
+      "properties": { "name": "MARCHÉ BELGRAND" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.29417754523, 48.8304645916]
+      },
+      "properties": { "name": "MARCHÉ LEFEBVRE" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.33571194631, 48.8937873501]
+      },
+      "properties": { "name": "MARCHÉ ORDENER" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.30994284673, 48.84835931]
+      },
+      "properties": { "name": "MARCHÉ SAXE-BRETEUIL" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.28385186359, 48.8673062153]
+      },
+      "properties": { "name": "MARCHÉ SAINT DIDIER" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.35536726779, 48.8562061311]
+      },
+      "properties": { "name": "MARCHÉ BAUDOYER" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.29506130014, 48.8499668915]
+      },
+      "properties": { "name": "MARCHÉ GRENELLE" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.37007970137, 48.8552550489]
+      },
+      "properties": { "name": "MARCHÉ BASTILLE" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.26473692303, 48.848066933]
+      },
+      "properties": { "name": "MARCHÉ AUTEUIL" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.36107646283, 48.8392951387]
+      },
+      "properties": { "name": "MARCHÉ SALPETRIERE" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3409732522, 48.8387419961]
+      },
+      "properties": { "name": "MARCHÉ PORT-ROYAL" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3476582635, 48.8554793625]
+      },
+      "properties": { "name": "MARCHÉ AUX FLEURS CITE" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.32329466518, 48.8826810256]
+      },
+      "properties": { "name": "MARCHÉ BIOLOGIQUE DES BATIGNOLLES" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.31381393259, 48.8691905025]
+      },
+      "properties": { "name": "MARCHÉ AUX TIMBRES CARRE MARIGNY" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.31707603203, 48.8312961895]
+      },
+      "properties": { "name": "MARCHÉ VILLEMAIN" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.39587628437, 48.8834051175]
+      },
+      "properties": { "name": "MARCHÉ PORTE BRUNET" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.32398273217, 48.8702500407]
+      },
+      "properties": { "name": "MARCHÉ AGUESSEAU" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.39310550301, 48.8710903303]
+      },
+      "properties": { "name": "MARCHÉ PYRENEES" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3368859999, 48.8984677975]
+      },
+      "properties": { "name": "MARCHÉ NEY" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.32795840125, 48.8225280145]
+      },
+      "properties": { "name": "MARCHÉ JOURDAN" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.32700719838, 48.8317941541]
+      },
+      "properties": { "name": "MARCHÉ MOUTON DUVERNET" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.36536033424, 48.8340428738]
+      },
+      "properties": { "name": "MARCHÉ VINCENT AURIOL" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.37031578205, 48.8648980062]
+      },
+      "properties": { "name": "MARCHÉ POPINCOURT" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.35179510416, 48.8429570574]
+      },
+      "properties": { "name": "MARCHÉ MONGE" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.39447030961, 48.8560359078]
+      },
+      "properties": { "name": "MARCHÉ CHARONNE" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.29816700257, 48.8781075314]
+      },
+      "properties": { "name": "MARCHÉ AUX FLEURS TERNES" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.32491055922, 48.8411770776]
+      },
+      "properties": { "name": "MARCHÉ DE LA CRÉATION EDGAR QUINET" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.34805327481, 48.8935457579]
+      },
+      "properties": { "name": "MARCHÉ ORNANO" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3423391865, 48.9004053837]
+      },
+      "properties": {
+        "name": "MARCHÉ AUX PUCES DE CLIGNANCOURT DJANGO REINHARDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.34199731652, 48.8272705369]
+      },
+      "properties": { "name": "MARCHÉ ALESIA" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.41472430059, 48.8559262002]
+      },
+      "properties": { "name": "MARCHÉ AUX PUCES PORTE DE MONTREUIL" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.30872575989, 48.8253047579]
+      },
+      "properties": { "name": "MARCHÉ AUX PUCES PORTE DE VANVES" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3512697754, 48.8298453305]
+      },
+      "properties": { "name": "MARCHÉ AUGUSTE BLANQUI" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.40268286154, 48.8475880008]
+      },
+      "properties": { "name": "MARCHÉ COURS DE VINCENNES" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.37919788257, 48.8570526156]
+      },
+      "properties": { "name": "MARCHÉ BIOLOGIQUE PLACE DU PÈRE CHAILLET" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.32517042794, 48.8702475724]
+      },
+      "properties": { "name": "MARCHÉ AUX FLEURS MADELEINE" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.31048056991, 48.8370963475]
+      },
+      "properties": { "name": "MARCHÉ CERVANTES" }
+    }
+  ]
+}
