@@ -53,6 +53,14 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": [11.6654677, 55.6982698]
+      },
+      "properties": { "name": "DK" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [2.34774830053, 48.8231045979]
       },
       "properties": { "name": "MARCHÉ BOBILLOT" }
