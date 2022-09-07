@@ -1,0 +1,91 @@
+.butik-banner {
+  height: 40vw;
+  overflow: hidden;
+  max-height: 900px;
+  @include mq_tablet {
+    height: 60vw;
+  }
+  @include mq_phone {
+    height: 60vw;
+  }
+  @include center;
+  img {
+    width: 100vw;
+  }
+}
+.shop-content {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: 1300px;
+  margin: 0 auto;
+  @include mq_tablet {
+    flex-direction: column-reverse;
+  }
+  @include mq_phone {
+    flex-direction: column-reverse;
+  }
+  div {
+    width: 60%;
+
+    @include mq_tablet {
+      width: inherit !important;
+    }
+    @include mq_phone {
+      width: inherit !important;
+    }
+  }
+  svg {
+    width: 1em;
+    height: fit-content;
+  }
+}
+
+.contact-text {
+  padding: 20px 25px;
+  width: 100% !important;
+  @include mq_tablet {
+    width: inherit !important;
+  }
+  @include mq_phone {
+    width: inherit !important;
+  }
+}
+
+.contact-information {
+  position: absolute;
+  background-color: var(--clr-white);
+  top: -10%;
+  width: 40% !important;
+  h1 {
+    padding: 20px 25px;
+  }
+  @include mq_tablet {
+    position: relative;
+    width: 100% !important;
+  }
+  @include mq_phone {
+    position: relative;
+    width: 100% !important;
+  }
+}
+.info-field {
+  display: flex;
+  height: fit-content;
+  padding: 20px 25px;
+  p {
+    height: fit-content;
+  }
+  :nth-child(2) {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.type-tag {
+  background-color: red;
+  width: 110px;
+  padding: 0 1em;
+  text-align: center;
+  border-radius: 10px;
+}

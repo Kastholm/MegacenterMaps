@@ -1,0 +1,41 @@
+// MQ mix-ins
+
+// Alt under 560px
+@mixin mq_phone() {
+  @media only screen and (max-width: 35em) {
+    @content;
+  }
+}
+
+//1040px til 560px
+@mixin mq_tablet() {
+  @media only screen and (max-width: 65em) and (min-width: 35em) {
+    @content;
+  }
+}
+
+// 1280px til 1040px
+@mixin mq_laptop() {
+  @media only screen and (max-width: 80em) and (min-width: 65em) {
+    @content;
+  }
+}
+// over 1280 px
+@mixin mq_desktop() {
+  @media only screen and (min-width: 80em) {
+    @content;
+  }
+}
+
+// over 1280 px
+@mixin mq_big() {
+  @media only screen and (min-width: 100em) {
+    @content;
+  }
+}
+
+//General mix-ins
+@mixin center() {
+  display: grid;
+  place-content: center;
+} ;

@@ -1,0 +1,93 @@
+.shop-grid {
+  max-width: 1620px;
+  margin: 0 auto 2rem;
+  display: grid;
+  place-content: center;
+  h2 {
+    font-family: CircularXXWeb-Book, sans-serif !important;
+    font-size: 60px;
+    @include mq_tablet {
+      margin-bottom: 1em;
+    }
+    @include mq_phone {
+      margin-bottom: 2em;
+    }
+  }
+  grid-template-columns: repeat(auto-fit, minmax(max(25%, 10rem), 1fr));
+  @include mq_laptop {
+    grid-template-columns: repeat(auto-fit, minmax(max(26%, 10rem), 1fr));
+  }
+  @include mq_tablet {
+    grid-template-columns: repeat(auto-fit, minmax(max(25%, 19rem), 1fr));
+  }
+  @include mq_phone {
+    grid-template-columns: repeat(auto-fit, minmax(max(10%, 24rem), 3fr));
+  }
+
+  img {
+    height: 8em;
+    width: 12em;
+    margin: 0 10px;
+    @include mq_laptop {
+      width: 18em;
+      height: 12em;
+    }
+    @include mq_tablet {
+      width: 22em;
+      height: 15em;
+    }
+    @include mq_phone {
+      width: 90vw;
+      margin: 0 5vw;
+      height: 20em;
+    }
+  }
+
+  h2,
+  h3,
+  p {
+    margin: 0 10px;
+  }
+  h2 {
+    margin: 0em 10px 0.3em 10px;
+    @include mq_tablet {
+      
+    }
+    @include mq_phone {
+      
+    }
+  }
+  .butik-status {
+    &:before {
+      content: "\A";
+      border-radius: 50%;
+      width: 7px;
+      height: 7px;
+      background: rgb(3, 150, 3);
+      display: inline-block;
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+  }
+  .butik-status-two {
+    &:before {
+      content: "\A";
+      border-radius: 50%;
+      width: 7px;
+      height: 7px;
+      background: red;
+      display: inline-block;
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+  .letter {
+    grid-column: 1 / -1;
+    margin: 0.5em 0 0.2em 0;
+    font-size: 3rem;
+  }
+}

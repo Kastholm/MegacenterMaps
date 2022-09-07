@@ -1,0 +1,51 @@
+.event-banner {
+  height: 25vw;
+  overflow: hidden;
+  max-height: 700px;
+  @include mq_tablet {
+    height: 60vw;
+  }
+  @include mq_phone {
+    height: 60vw;
+  }
+  @include center;
+  img {
+    width: 100vw;
+  }
+}
+
+.event-text {
+  max-width: 900px;
+  @include center;
+  margin: 0 auto;
+  background-color: var(--clr-white);
+  position: relative;
+  top: -40px;
+  padding: 2em 0 0 0;
+  h2 {
+    text-align: center;
+  }
+  h3 {
+    padding-top: 1em;
+  }
+  img {
+    width: 20em;
+    margin: 0 auto !important;
+    padding: 2em 0 0 0;
+    @include mq_tablet {
+      width: 30em;
+    }
+    @include mq_phone {
+      width: 30em;
+    }
+  }
+}
+
+.type-tag-event {
+  background-color: #ba9e32;
+  width: 110px;
+  padding: 0 1em;
+  text-align: center;
+  border-radius: 10px;
+  margin: 0 auto;
+}

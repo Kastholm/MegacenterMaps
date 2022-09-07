@@ -1,0 +1,225 @@
+/* 
+Font Sizes
+0. Banner text .banner-text
+1. Stor header .header
+2. Mini header
+3. Pharagraph
+4. info
+
+ font-size: clamp(
+    22px 
+    1.5rem 
+    2rem 
+  );
+
+*/
+
+/*root directories*/
+:root {
+  --clr-blue: #669ac1;
+  --clr-orange: #c29c2a;
+  --clr-white: #fbfbfb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-family: SimonCircularPro-Book, sans-serif;
+}
+h3 {
+  font-family: SimonCircularPro-Bold, sans-serif;
+}
+
+label {
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+  background-color: var(--clr-white);
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 40em) {
+  html {
+    font-size: 2.5vw;
+  }
+}
+
+@media only screen and (max-width: 60em) and (min-width: 40em) {
+  html {
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 80em) and (min-width: 60em) {
+  html {
+    font-size: 1.7vw;
+  }
+}
+
+@media only screen and (min-width: 80em) {
+  html {
+    font-size: 1.5em;
+  }
+}
+
+body {
+  cursor: default;
+}
+
+button,
+a {
+  text-decoration: none;
+  color: inherit;
+  border: none;
+}
+
+button:hover,
+a:hover {
+  cursor: pointer;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.banner {
+  max-height: 40em;
+}
+
+@font-face {
+  font-family: CircularXXWeb-Bold;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Simon Circular Pro"), local("SimonCircularPro"),
+    url(https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/10ec148069090139fdee0ead9ecbf798.yottaa.net/v~4b.2a8.0.0/fonts/CircularXXWeb-Bold.woff2?yocs=B_D_NA_)
+      format("woff2"),
+    url(https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/10ec148069090139fdee0ead9ecbf798.yottaa.net/v~4b.2a8.0.0/fonts/CircularXXWeb-Bold.woff?yocs=B_D_NA_)
+      format("woff");
+}
+
+@font-face {
+  font-family: CircularXXWeb-Book;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Simon Circular Pro"), local("SimonCircularPro"),
+    url(https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/10ec148069090139fdee0ead9ecbf798.yottaa.net/v~4b.2a8.0.0/fonts/CircularXXWeb-Book.woff2?yocs=B_D_NA_)
+      format("woff2"),
+    url(https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/10ec148069090139fdee0ead9ecbf798.yottaa.net/v~4b.2a8.0.0/fonts/CircularXXWeb-Book.woff?yocs=B_D_NA_)
+      format("woff");
+}
+
+@font-face {
+  font-family: CircularXXWeb-Thin;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Simon Circular Pro"), local("SimonCircularPro"),
+    url(https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/10ec148069090139fdee0ead9ecbf798.yottaa.net/v~4b.2a8.0.0/fonts/CircularXXWeb-Thin.woff2?yocs=B_D_NA_)
+      format("woff2"),
+    url(https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/10ec148069090139fdee0ead9ecbf798.yottaa.net/v~4b.2a8.0.0/fonts/CircularXXWeb-Thin.woff?yocs=B_D_NA_)
+      format("woff");
+}
+
+@font-face {
+  font-family: SimonCircularPro-Black;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Simon Circular Pro"), local("SimonCircularPro"),
+    url(https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/10ec148069090139fdee0ead9ecbf798.yottaa.net/v~4b.2a8.0.0/fonts/simon-circular-pro-black-c.woff2?yocs=B_D_NA_)
+      format("woff2"),
+    url(https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/10ec148069090139fdee0ead9ecbf798.yottaa.net/v~4b.2a8.0.0/fonts/simon-circular-pro-black-c.woff?yocs=B_D_NA_)
+      format("woff");
+}
+@font-face {
+  font-family: SimonCircularPro-Blackitalic;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Simon Circular Pro"), local("SimonCircularPro"),
+    url(https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/10ec148069090139fdee0ead9ecbf798.yottaa.net/v~4b.2a8.0.0/fonts/simon-circular-pro-blackitalic-c.woff2?yocs=B_D_NA_)
+      format("woff2"),
+    url(https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/10ec148069090139fdee0ead9ecbf798.yottaa.net/v~4b.2a8.0.0/fonts/simon-circular-pro-blackitalic-c.woff?yocs=B_D_NA_)
+      format("woff");
+}
+@font-face {
+  font-family: SimonCircularPro-Bold;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Simon Circular Pro"), local("SimonCircularPro"),
+    url(https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/10ec148069090139fdee0ead9ecbf798.yottaa.net/v~4b.2a8.0.0/fonts/simon-circular-pro-bold-c.woff2?yocs=B_D_NA_)
+      format("woff2"),
+    url(https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/10ec148069090139fdee0ead9ecbf798.yottaa.net/v~4b.2a8.0.0/fonts/simon-circular-pro-bold-c.woff?yocs=B_D_NA_)
+      format("woff");
+}
+@font-face {
+  font-family: SimonCircularPro-Bolditalic;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Simon Circular Pro"), local("SimonCircularPro"),
+    url(https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/10ec148069090139fdee0ead9ecbf798.yottaa.net/v~4b.2a8.0.0/fonts/simon-circular-pro-bolditalic-c.woff2?yocs=B_D_NA_)
+      format("woff2"),
+    url(https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/10ec148069090139fdee0ead9ecbf798.yottaa.net/v~4b.2a8.0.0/fonts/simon-circular-pro-bolditalic-c.woff?yocs=B_D_NA_)
+      format("woff");
+}
+@font-face {
+  font-family: SimonCircularPro-Book;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Simon Circular Pro"), local("SimonCircularPro"),
+    url(https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/10ec148069090139fdee0ead9ecbf798.yottaa.net/v~4b.2a8.0.0/fonts/simon-circular-pro-book-c.woff2?yocs=B_D_NA_)
+      format("woff2"),
+    url(https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/10ec148069090139fdee0ead9ecbf798.yottaa.net/v~4b.2a8.0.0/fonts/simon-circular-pro-book-c.woff?yocs=B_D_NA_)
+      format("woff");
+}
+@font-face {
+  font-family: SimonCircularPro-Bookitalic;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Simon Circular Pro"), local("SimonCircularPro"),
+    url(https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/10ec148069090139fdee0ead9ecbf798.yottaa.net/v~4b.2a8.0.0/fonts/simon-circular-pro-bookitalic-c.woff2?yocs=B_D_NA_)
+      format("woff2"),
+    url(https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/10ec148069090139fdee0ead9ecbf798.yottaa.net/v~4b.2a8.0.0/fonts/simon-circular-pro-bookitalic-c.woff?yocs=B_D_NA_)
+      format("woff");
+}
+@font-face {
+  font-family: SimonCircularPro-Medium;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Simon Circular Pro"), local("SimonCircularPro"),
+    url(https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/10ec148069090139fdee0ead9ecbf798.yottaa.net/v~4b.2a8.0.0/fonts/simon-circular-pro-medium-c.woff2?yocs=B_D_NA_)
+      format("woff2"),
+    url(https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/10ec148069090139fdee0ead9ecbf798.yottaa.net/v~4b.2a8.0.0/fonts/simon-circular-pro-medium-c.woff?yocs=B_D_NA_)
+      format("woff");
+}
+@font-face {
+  font-family: SimonCircularPro-Mediumitalic;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Simon Circular Pro"), local("SimonCircularPro"),
+    url(https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/10ec148069090139fdee0ead9ecbf798.yottaa.net/v~4b.2a8.0.0/fonts/simon-circular-pro-mediumitalic-c.woff2?yocs=B_D_NA_)
+      format("woff2"),
+    url(https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/10ec148069090139fdee0ead9ecbf798.yottaa.net/v~4b.2a8.0.0/fonts/simon-circular-pro-mediumitalic-c.woff?yocs=B_D_NA_)
+      format("woff");
+}
+@font-face {
+  font-family: SimonCircularPro-Light;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Simon Circular Pro"), local("SimonCircularPro"),
+    url(https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/10ec148069090139fdee0ead9ecbf798.yottaa.net/v~4b.2a8.0.0/fonts/simon-circular-pro-light-c.woff2?yocs=B_D_NA_)
+      format("woff2"),
+    url(https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/10ec148069090139fdee0ead9ecbf798.yottaa.net/v~4b.2a8.0.0/fonts/simon-circular-pro-light-c.woff?yocs=B_D_NA_)
+      format("woff");
+}
+@font-face {
+  font-family: SimonCircularPro-Lightitalic;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Simon Circular Pro"), local("SimonCircularPro"),
+    url(https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/10ec148069090139fdee0ead9ecbf798.yottaa.net/v~4b.2a8.0.0/fonts/simon-circular-pro-Lightitalic-c.woff2?yocs=B_D_NA_)
+      format("woff2"),
+    url(https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/10ec148069090139fdee0ead9ecbf798.yottaa.net/v~4b.2a8.0.0/fonts/simon-circular-pro-Lightitalic-c.woff?yocs=B_D_NA_)
+      format("woff");
+}

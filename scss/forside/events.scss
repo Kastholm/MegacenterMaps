@@ -1,0 +1,78 @@
+.divider {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.grid-event {
+  display: grid;
+  place-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(max(25%, 10rem), 1fr));
+  margin: 0 auto;
+  max-width: 1620px;
+  margin-bottom: 2em;
+  color: white;
+
+  @include mq_tablet {
+    grid-template-columns: repeat(auto-fit, minmax(max(25%, 25rem), 1fr));
+  }
+  @include mq_phone {
+    grid-template-columns: repeat(auto-fit, minmax(max(25%, 25rem), 1fr));
+  }
+  .event-img {
+    width: 25em;
+    height: 25em;
+    margin: 0 auto;
+    @include mq_tablet {
+      width: 35em;
+      height: 35em;
+    }
+    @include mq_phone {
+      width: 35em;
+      height: 35em;
+    }
+  }
+  div {
+    position: relative;
+    text-align: center;
+  }
+  span {
+    position: absolute;
+    inset: 5% 10%;
+    max-width: 15em;
+
+    z-index: 99;
+    text-align: left;
+    @include mq_big {
+      margin-left: 2em;
+    }
+
+    @include mq_tablet {
+      inset: 75% 18%;
+      max-width: 17em;
+      h4 {
+        font-weight: 300;
+      }
+    }
+    @include mq_phone {
+      max-width: 25em;
+      h4 {
+        font-weight: 300;
+      }
+    }
+    h4 {
+      line-height: 25px;
+      margin: 0.3em 0;
+      font-weight: 300;
+    }
+  }
+
+  button {
+    text-transform: uppercase;
+    background: none;
+    text-decoration: underline;
+  }
+}
+
+.event-title {
+  font-family: CircularXXWeb-Thin, sans-serif;
+}
